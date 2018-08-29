@@ -14,7 +14,7 @@ class Author
     @posts << post
   end
   
-  def self.all
+  def all
     @@all
   end
   
