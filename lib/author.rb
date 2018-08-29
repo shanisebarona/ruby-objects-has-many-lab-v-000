@@ -32,13 +32,7 @@ class Author
     Post.all.count
   end
   
-  def author_name
-    if self.author
-      self.author.name
-    else 
-      nil
-    end
-  end
+ 
   
    
   
