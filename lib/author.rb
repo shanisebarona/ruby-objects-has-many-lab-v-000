@@ -22,6 +22,10 @@ class Author
     @posts
   end
   
+  def self.all
+    @@all
+  end
+  
   def self.post_count
     Post.all.count
   end
@@ -34,8 +38,6 @@ class Author
     end
   end
   
-   def self.all
-    @@all
-  end
+   
   
 end
