@@ -31,6 +31,7 @@ class Author
       self.author.name
     else 
       nil
+    end
   end
   
    def self.all
